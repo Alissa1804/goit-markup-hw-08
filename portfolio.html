@@ -154,13 +154,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="">
                 <div class="projects__box">
-                  <img
-                    class="projects__img"
-                    src="./images/projects/technokryak.jpg"
-                    alt="Отображенный на ноутбуке дизайн сайта "
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/technokryak-desktop.jpg 1x,
+                        ./images/projects/technokryak-desktop.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/technokryak-tablet.jpg    1x,
+                        ./images/projects/technokryak-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/technokryak-mobile.jpg    1x,
+                        ./images/projects/technokryak-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/technokryak-mobile.jpg"
+                      alt="Отображенный на ноутбуке дизайн сайта "
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -170,7 +187,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="projects__wrapper">
+                <div class="projects__wrapper projects__tech">
                   <h2 class="projects__title">Технокряк</h2>
                   <p class="projects__product">Веб-сайт</p>
                 </div>
@@ -179,12 +196,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/poster.jpg"
-                    alt="Два басктеболиста сражаются за мяч"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/poster-desktop.jpg    1x,
+                        ./images/projects/poster-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/poster-tablet.jpg    1x,
+                        ./images/projects/poster-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/poster-mobile.jpg    1x,
+                        ./images/projects/poster-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/poster-mobile.jpg"
+                      alt="Два басктеболиста сражаются за мяч"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -196,7 +231,11 @@
                 </div>
                 <div class="projects__wrapper">
                   <h2 class="projects__title">
-                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                    Постер
+                    <span lang="en"
+                      >New Orlean vs Golden
+                      <span class="projects__text-span">Star</span></span
+                    >
                   </h2>
                   <p class="projects__product">Дизайн</p>
                 </div>
@@ -205,12 +244,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/seafood.jpg"
-                    alt="Логотип ресторана"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/seafood-desktop.jpg    1x,
+                        ./images/projects/seafood-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/seafood-tablet.jpg    1x,
+                        ./images/projects/seafood-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/seafood-mobile.jpg    1x,
+                        ./images/projects/seafood-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/seafood-mobile.jpg"
+                      alt="Логотип ресторана"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -231,12 +288,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/prime.jpg"
-                    alt="Наушники"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/prime-desktop.jpg    1x,
+                        ./images/projects/prime-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/prime-tablet.jpg    1x,
+                        ./images/projects/prime-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/prime-mobile.jpg    1x,
+                        ./images/projects/prime-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/prime-mobile.jpg"
+                      alt="Наушники"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -257,12 +332,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/boxes.jpg"
-                    alt="Две коробки"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/boxes-desktop.jpg    1x,
+                        ./images/projects/boxes-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/boxes-tablet.jpg    1x,
+                        ./images/projects/boxes-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/boxes-mobile.jpg    1x,
+                        ./images/projects/boxes-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/boxes-mobile.jpg"
+                      alt="Две коробки"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -283,12 +376,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/inspiration.jpg"
-                    alt="Отображенный на мониторе дизайн сайта"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/inspiration-desktop.jpg    1x,
+                        ./images/projects/inspiration-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/inspiration-tablet.jpg    1x,
+                        ./images/projects/inspiration-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/inspiration-mobile.jpg    1x,
+                        ./images/projects/inspiration-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/inspiration-mobile.jpg"
+                      alt="Отображенный на мониторе дизайн сайта"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -309,12 +420,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/limited.jpg"
-                    alt="Раскрытый журнал"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/limited-desktop.jpg    1x,
+                        ./images/projects/limited-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/limited-tablet.jpg    1x,
+                        ./images/projects/limited-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/limited-mobile.jpg    1x,
+                        ./images/projects/limited-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/limited-mobile.jpg"
+                      alt="Раскрытый журнал"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -335,12 +464,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="" tabindex="0">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/lab.jpg"
-                    alt="Логотип"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/lab-desktop.jpg    1x,
+                        ./images/projects/lab-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/lab-tablet.jpg    1x,
+                        ./images/projects/lab-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/lab-mobile.jpg    1x,
+                        ./images/projects/lab-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/lab-mobile.jpg"
+                      alt="Логотип"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
@@ -361,12 +508,30 @@
             <li class="projects__item">
               <a class="projects__link link" href="" tabindex="0">
                 <div class="projects__box">
-                  <img
-                    src="./images/projects/growing-business.jpg"
-                    alt="Отображенный на ноутбуке дизайн приложения"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/business-desktop.jpg    1x,
+                        ./images/projects/business-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)" />
+                    <source
+                      srcset="
+                        ./images/projects/business-tablet.jpg    1x,
+                        ./images/projects/business-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+                    <source
+                      srcset="
+                        ./images/projects/business-mobile.jpg    1x,
+                        ./images/projects/business-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)" />
+                    <img
+                      class="projects__img"
+                      src="./images/projects/business-mobile.jpg"
+                      alt="Отображенный на ноутбуке дизайн приложения"
+                  /></picture>
                   <div class="projects__overlay">
                     <p class="projects__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
