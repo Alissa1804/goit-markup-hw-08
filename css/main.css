@@ -81,21 +81,21 @@ button {
   margin-right: auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -630,7 +630,7 @@ button {
 }
 
 .subscribe__input {
-  min-width: 358px;
+  max-width: 358px;
   height: 50px;
   padding-left: 16px;
   background-color: transparent;
@@ -661,6 +661,12 @@ button {
 .subscribe__icon {
   margin-left: 10px;
   fill: currentColor;
+}
+
+@media screen and (min-width: 480px) {
+  .subscribe__input {
+    min-width: 358px;
+  }
 }
 
 @media screen and (min-width: 768px) {
