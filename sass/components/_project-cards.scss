@@ -61,7 +61,7 @@
 }
 
 .projects__text {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--primary-color);
@@ -77,6 +77,9 @@
     width: 450px;
     height: 294px;
   }
+  .projects__text {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -89,6 +92,7 @@
     flex-wrap: wrap;
   }
   .projects__item {
+    display: flex;
     &:nth-child(2n + 1) {
       margin-right: 30px;
     }
@@ -98,8 +102,13 @@
     }
   }
 
-  .projects__tech {
-    padding-bottom: 56px;
+  .projects__link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects__wrapper {
+    flex-grow: 1;
   }
 
   .projects__text-span {
@@ -134,8 +143,5 @@
 
   .projects__text-span {
     display: inline;
-  }
-  .projects__tech {
-    padding-bottom: 20px;
   }
 }
